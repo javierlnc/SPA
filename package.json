@@ -1,0 +1,22 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "Single Page Aplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierlnc/SPA.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Javier Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javierlnc/SPA/issues"
+  },
+  "homepage": "https://github.com/javierlnc/SPA#readme"
+}
