@@ -17,8 +17,8 @@ const router = async () =>{
     let hash = getHash();
     let route = await resolveRoutes(hash);
     console.log(route)
-    let render= routes[route] ? routes[route]: error404;
+    let render= routes[route] ? routes[route]:error404;
     console.log(render)
-    content.innerHTML = render();
+    content.innerHTML = await render();
 }
 export default router;
